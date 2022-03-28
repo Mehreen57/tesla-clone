@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Model 3",
+        "subTitle": "Order Online for Touchless Delivery",
+        "backgroundImg": "../images/model-3.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Model Y",
+        "subTitle": "Order Online for Touchless Delivery",
+        "backgroundImg": "../images/model-y.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Model S",
+        "subTitle": "Order Online for Touchless Delivery"
+    },
+    {
+        "id": 4,
+        "title": "Model X",
+        "subTitle": "Order Online for Touchless Delivery"
+    },
+    {
+        "id": 5,
+        "title": "Solar Panels",
+        "subTitle": "Lowest Cost Solar Panels in America"
+    },
+    {
+        "id": 6,
+        "title": "Solar Roof",
+        "subTitle": "Produce Clean Energy From Your Roof"
+    }
+
+]
