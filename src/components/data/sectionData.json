@@ -3,33 +3,63 @@
         "id": 1,
         "title": "Model 3",
         "subTitle": "Order Online for Touchless Delivery",
-        "backgroundImg": "../images/model-3.jpg"
+        "backgroundImg": "../images/model-3.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
     },
     {
         "id": 2,
         "title": "Model Y",
         "subTitle": "Order Online for Touchless Delivery",
-        "backgroundImg": "../images/model-y.jpg"
+        "backgroundImg": "../images/model-y.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
     },
     {
         "id": 3,
         "title": "Model S",
-        "subTitle": "Order Online for Touchless Delivery"
+        "subTitle": "Order Online for Touchless Delivery",
+        "backgroundImg": "../images/model-s.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
     },
     {
         "id": 4,
         "title": "Model X",
-        "subTitle": "Order Online for Touchless Delivery"
+        "subTitle": "Order Online for Touchless Delivery",
+        "backgroundImg": "../images/model-x.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
     },
     {
         "id": 5,
         "title": "Solar Panels",
-        "subTitle": "Lowest Cost Solar Panels in America"
+        "subTitle": "Lowest Cost Solar Panels in America",
+        "backgroundImg": "../images/solar-panel.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
     },
     {
         "id": 6,
         "title": "Solar Roof",
-        "subTitle": "Produce Clean Energy From Your Roof"
+        "subTitle": "Produce Clean Energy From Your Roof",
+        "backgroundImg": "../images/solar-roof.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
+    },
+    {
+        "id": 7,
+        "title": "Solar Roof",
+        "subTitle": "Produce Clean Energy From Your Roof",
+        "backgroundImg": "../images/solar-roof.jpg",
+        "leftBtnText": "Custom Order",
+        "rightBtnText": "Existing Inventory"
+    },
+    {
+        "id": 8,
+        "title": "Accessories",
+        "backgroundImg": "../images/accessories.jpg",
+        "leftBtnText": "Shop Now"
     }
 
 ]

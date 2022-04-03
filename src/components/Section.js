@@ -7,7 +7,7 @@ function Section() {
     return (
         <>
             { sectionData && sectionData.map((data, index) => (
-                <Wrap key={index}>
+                <Wrap key={index} bgImg={data.backgroundImg}>
                     <ItemText>
                         <h1>{data.title}</h1>
                         <p>{data.subTitle}</p>
@@ -15,11 +15,13 @@ function Section() {
                     <Buttons>
                         <ButtonGroup>
                             <LeftButton>
-                                Custom Order
+                                {data.leftBtnText}
                             </LeftButton>
-                            <RightButton>
-                                Existing Inventory
-                            </RightButton>
+                            { data.rightBtnText && 
+                                <RightButton>
+                                 {data.rightBtnText}
+                                </RightButton>
+                            }
                         </ButtonGroup>
                         <DownArrow src="/images/down-arrow.svg" />
                     </Buttons>
@@ -34,7 +36,7 @@ export default Section;
 const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
-    background: url('/images/model-s.jpg');
+    background: url(${props => props.bgImg});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,6 +52,8 @@ const ItemText = styled.div`
 
     h1{
         padding-bottom: 15px;
+        letter-spacing: 2px;
+        font-weight: 500;
     }
 `
 
