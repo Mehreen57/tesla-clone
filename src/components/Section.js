@@ -1,6 +1,7 @@
 import React from 'react';
 import styled  from 'styled-components';
 import sectionData from './data/sectionData.json';
+import Fade from 'react-reveal/Fade';
 
 function Section() {
         
@@ -8,21 +9,25 @@ function Section() {
         <>
             { sectionData && sectionData.map((data, index) => (
                 <Wrap key={index} bgImg={data.backgroundImg}>
-                    <ItemText>
-                        <h1>{data.title}</h1>
-                        <p>{data.subTitle}</p>
-                    </ItemText>
+                    <Fade bottom>
+                        <ItemText>
+                            <h1>{data.title}</h1>
+                            <p>{data.subTitle}</p>
+                        </ItemText>
+                    </Fade>
                     <Buttons>
-                        <ButtonGroup>
-                            <LeftButton>
-                                {data.leftBtnText}
-                            </LeftButton>
-                            { data.rightBtnText && 
-                                <RightButton>
-                                 {data.rightBtnText}
-                                </RightButton>
-                            }
-                        </ButtonGroup>
+                        <Fade bottom>
+                            <ButtonGroup>
+                                <LeftButton>
+                                    {data.leftBtnText}
+                                </LeftButton>
+                                { data.rightBtnText && 
+                                    <RightButton>
+                                    {data.rightBtnText}
+                                    </RightButton>
+                                }
+                            </ButtonGroup>
+                        </Fade>
                         <DownArrow src="/images/down-arrow.svg" />
                     </Buttons>
                 </Wrap>

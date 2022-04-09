@@ -9,6 +9,17 @@
     box-sizing: border-box;
 }
 
+/* Reset the defualt setting */
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* End Reset the defualt setting */
+
 body{
     width: 100%;
     overflow-x: hidden;
